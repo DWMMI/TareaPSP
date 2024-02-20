@@ -26,7 +26,7 @@ Nota: Para hacer el proyecto en SpringBoot con JDBC se debe de importar los star
 
 
 🔴 1 Dar de alta un videojuego
-![](imagenes/Captura de pantalla 2024-02-20 a las 1.47.15.png)
+![img1](imagenesPostman/c1.png)
 
 Se debe de enviar un JSON con el siguiente formato:
 ```json
@@ -82,9 +82,9 @@ ALTER TABLE videojuegos MODIFY COLUMN id INT AUTO_INCREMENT;
 ---
 🔴 2 Dar de baja un videojuego por ID
 
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.20.29.png)
+![img2](imagenesPostman/c2.png)
 
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.22.04.png)
+![img3](imagenesPostman/c2_1.png)
 
 En el controlador:
 > org/tareapsp/tareapsp2_1/controlador/ControladorVideojuegos.java
@@ -103,7 +103,7 @@ linea 52-59
 
 --- 
 🔴 3-Modificar un videojuego por ID
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.37.45.png)
+![img4](imagenesPostman/c3.png)
 En posdtman
 
 > PUT http://localhost:8080/videojuegos/2
@@ -134,7 +134,7 @@ En el controlador:
 
 🔴 4-Obtener un videojuego por ID
 
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.43.05.png)
+![img5](imagenesPostman/c4.png)
 
 En el controlador:
 
@@ -151,7 +151,7 @@ En el controlador:
 
 🔴 5-Listar todos los videojuegos
 
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.47.46.png)
+![img6](imagenesPostman/c5.png)
 
 En el controlador:
 
@@ -163,7 +163,7 @@ En el controlador:
 ```
 🔴 6-Listar todos los videojuegos por compañía
 
-![](imagenes/Captura de pantalla 2024-02-20 a las 2.50.49.png)
+![img7](imagenesPostman/c6.png)
 
 En el controlador:
 
